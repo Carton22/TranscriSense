@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D223C72C2A1B613300372785 /* atmosBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D223C72B2A1B613300372785 /* atmosBubble.swift */; };
 		D2FEB33B2A1B53AC00B04236 /* TranscriSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */; };
 		D2FEB33D2A1B53AC00B04236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FEB33C2A1B53AC00B04236 /* ContentView.swift */; };
 		D2FEB33F2A1B53AE00B04236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FEB33E2A1B53AE00B04236 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D223C72B2A1B613300372785 /* atmosBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmosBubble.swift; sourceTree = "<group>"; };
 		D2FEB3372A1B53AC00B04236 /* TranscriSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranscriSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriSenseApp.swift; sourceTree = "<group>"; };
 		D2FEB33C2A1B53AC00B04236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */,
 				D2FEB33C2A1B53AC00B04236 /* ContentView.swift */,
+				D223C72B2A1B613300372785 /* atmosBubble.swift */,
 				D2FEB33E2A1B53AE00B04236 /* Assets.xcassets */,
 				D2FEB3402A1B53AE00B04236 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2FEB33D2A1B53AC00B04236 /* ContentView.swift in Sources */,
+				D223C72C2A1B613300372785 /* atmosBubble.swift in Sources */,
 				D2FEB33B2A1B53AC00B04236 /* TranscriSenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
