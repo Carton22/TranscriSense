@@ -34,7 +34,7 @@ extension Color {
 }
 
 struct atmosBubble: View {
-    @State private var soundDB: Double = 500
+    @State private var soundDB: Double = 30
     @State private var animationAmount: CGFloat = 5
     let timer = Timer.publish(every: 2, on: .main, in: .common).autoconnect()
 
@@ -44,12 +44,11 @@ struct atmosBubble: View {
                 geometry in
                 Spacer()
                 Circle()
-                    .fill(LinearGradient(
-                        gradient: Gradient(colors: [Color(hex: "#195CA2"), Color(hex: "#83CBA6")]),
-                        startPoint: .center,
-                        endPoint: .top
-                    ))
-                    .frame(width: CGFloat(soundDB + animationAmount * 2), height: CGFloat(soundDB * 2))
+                    .fill(circleColor)
+//                change the number 8 to change bewtween fierce and calm atmosphere
+//                500 is the basic size number, don't change!
+//                animationAmount means the bubble can resize dynamically in a small range like a spring
+                    .frame(width: CGFloat(500 + soundDB * 8 + animationAmount * 2), height: CGFloat(soundDB * 2000))
                     .position(x: geometry.size.width / 2, y: geometry.size.height)
                     .onReceive(timer) { _ in
                                             withAnimation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
@@ -59,6 +58,23 @@ struct atmosBubble: View {
             }
         }
     }
+    
+//    color module: to decide the color of the bubble
+    var circleColor: LinearGradient {
+            if soundDB < 3 {
+                return LinearGradient(
+                    gradient: Gradient(colors: [Color(hex: "#195CA2"), Color(hex: "#83CBA6")]),
+                    startPoint: .center,
+                    endPoint: .top
+                )
+            } else {
+                return LinearGradient(
+                    gradient: Gradient(colors: [Color(hex: "#de3a75"), Color(hex: "#f7cf58")]),
+                    startPoint: .center,
+                    endPoint: .top
+                )
+            }
+        }
 }
 
 

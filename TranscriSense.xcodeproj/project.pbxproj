@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D223C72C2A1B613300372785 /* atmosBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = D223C72B2A1B613300372785 /* atmosBubble.swift */; };
+		D2972DE72A2458A100FCACC5 /* start.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2972DE62A2458A100FCACC5 /* start.swift */; };
 		D2FEB33B2A1B53AC00B04236 /* TranscriSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */; };
 		D2FEB33D2A1B53AC00B04236 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FEB33C2A1B53AC00B04236 /* ContentView.swift */; };
 		D2FEB33F2A1B53AE00B04236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FEB33E2A1B53AE00B04236 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		D223C72B2A1B613300372785 /* atmosBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atmosBubble.swift; sourceTree = "<group>"; };
+		D2972DE62A2458A100FCACC5 /* start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = start.swift; sourceTree = "<group>"; };
 		D2FEB3372A1B53AC00B04236 /* TranscriSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranscriSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriSenseApp.swift; sourceTree = "<group>"; };
 		D2FEB33C2A1B53AC00B04236 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */,
 				D2FEB33C2A1B53AC00B04236 /* ContentView.swift */,
 				D223C72B2A1B613300372785 /* atmosBubble.swift */,
+				D2972DE62A2458A100FCACC5 /* start.swift */,
 				D2FEB33E2A1B53AE00B04236 /* Assets.xcassets */,
 				D2FEB3402A1B53AE00B04236 /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2972DE72A2458A100FCACC5 /* start.swift in Sources */,
 				D2FEB33D2A1B53AC00B04236 /* ContentView.swift in Sources */,
 				D223C72C2A1B613300372785 /* atmosBubble.swift in Sources */,
 				D2FEB33B2A1B53AC00B04236 /* TranscriSenseApp.swift in Sources */,
@@ -423,6 +427,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TranscriSense/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +456,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TranscriSense/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
