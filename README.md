@@ -6,4 +6,4 @@
 
 ![Intense](figures/Intense.jpg)
 
-![Left-drag Intense](figures/Left-drag Intense.jpg)
+![Left-drag Intense](figures/Left-drag_Intense.jpg)
