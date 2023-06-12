@@ -43,7 +43,7 @@ struct columnpainter: View {
         }
 //        0.5表示高亮的宽度
         for i in 0..<markedTime.count{
-            markDBvalue.append(db_time(db: voiceDBList[Int(markedTime[i])] + 0.5, time: markedTime[i]))
+            markDBvalue.append(db_time(db: voiceDBList[Int(markedTime[i]/1)] + 0.5, time: markedTime[i]))
         }
         
     }

@@ -108,62 +108,7 @@ class RecordManager {
         }
     }
 }
-//
-//var recordManager = RecordManager()
-//
-//struct recorderView: View {
-//    let volumntimer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
-//
-//    func createAndRecord(){
-////        recordManager = RecordManager()
-//        recordManager.beginRecord()
-//    }
-//
-//    func stopRecord(){
-//        recordManager.stopRecord()
-//    }
-//
-//    func playRecord(){
-//        recordManager.play()
-//    }
-//
-//    var body: some View {
-//        VStack {
-//            GeometryReader{
-//                geometry in
-//                Spacer()
-//
-//                Button(action: createAndRecord, label: {Text("Start recording")
-//                        .padding()
-//                        .background(Color.black)
-//                        .foregroundColor(.white)
-//                        .cornerRadius(40)})
-//                .position(x: geometry.size.width/2, y: geometry.size.height/2-50)
-//                .onReceive(volumntimer) { _ in
-//                    if recordManager.recorder != nil{
-//                        recordManager.getVoiceDB()
-//                    }
-//                }
-//
-//                Button(action: stopRecord, label: {Text("Stop recording")
-//                        .padding()
-//                        .background(Color.black)
-//                        .foregroundColor(.white)
-//                        .cornerRadius(40)})
-//                .position(x: geometry.size.width/2, y: geometry.size.height/2+50)
-//
-//                Button(action: playRecord, label: {Text("Play record")
-//                        .padding()
-//                        .background(Color.black)
-//                        .foregroundColor(.white)
-//                        .cornerRadius(40)})
-//                .position(x: geometry.size.width/2, y: geometry.size.height/2+150)
-//
-//            }
-//        }
-//    }
-//}
-//
+
 //struct recorderView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        recorderView()

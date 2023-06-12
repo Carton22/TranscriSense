@@ -15,10 +15,6 @@ struct intropage: View{
             
             GeometryReader{
                 geometry in
-                
-                
-                
-//                Spacer()
                 Image(systemName: "ear.and.waveform")
                     .resizable()
                     .renderingMode(.original)

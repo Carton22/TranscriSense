@@ -23,17 +23,14 @@ struct itemView: View{
     @Binding var startTime: Date
     @Binding var audioLen: Double
     @State var isReleased: Bool = false
-//    @State var releasedFigureView: View = columnpainter(voiceDBList: voiceDBList, markedTime: markList)
     @State var buttonText: Image = Image(systemName: "chevron.down.circle")
     
     func updateReleaseView(){
         if isReleased == false {
-//            releasedFigureView = columnpainter(voiceDBList: voiceDBList, markedTime: markList)
             buttonText = Image(systemName: "chevron.up.circle")
             isReleased = true
         }
         else{
-//            releasedFigureView = EmptyView()
             buttonText = Image(systemName: "chevron.down.circle")
             isReleased = false
         }
@@ -78,12 +75,10 @@ struct itemView: View{
                 Text(date2string(date: startTime))
                     .font(.caption)
                     .foregroundColor(.secondary)
-//                    .padding()
                     .position(CGPoint(x: UIScreen.main.bounds.size.width * 0.115, y: 0))
                 Text(double2string(doubleValue:audioLen))
                     .font(.caption)
                     .foregroundColor(.secondary)
-//                    .padding()
                     .position(CGPoint(x: UIScreen.main.bounds.size.width * 0.4, y: 0))
             }
             

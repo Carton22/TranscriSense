@@ -139,9 +139,6 @@ struct atmosBubble: View {
     @State private var isAddtime: Bool = true
     @State var textCounter: Int = 0
     @State var currentTime: String = "00:00:00"
-//    @State var audioEngine = AVAudioEngine()
-//    @State var recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
-//    @State var recognitionTask: SFSpeechRecognitionTask?
     
     //initial variables
     @State private var animationAmount: CGFloat = 5
@@ -444,7 +441,6 @@ struct atmosBubble: View {
     
     private func updatePrintText(){
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1){
-            //printtext = "Auto text" + String(textCounter)
             if isbegin == false {
                 if isRecordingFlag == true{
                     performSpeechRecognition()

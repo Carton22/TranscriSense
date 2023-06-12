@@ -40,18 +40,6 @@ struct feedbackManager{
         }
     }
 }
-// 调用时先创建 feedbackManager
-// 再调用prepare函数，再进行震动函数complexSuccess
-// Example如下
-//struct feedback: View {
-//    let fbM: feedbackManager = feedbackManager()
-//    var body: some View {
-//        Text("Hello, World!")
-//            .onAppear(perform: fbM.prepareHaptics)
-//            .onTapGesture(perform: fbM.complexSuccess)
-//    }
-//}
-//
 //struct feedback_Previews: PreviewProvider {
 //    static var previews: some View {
 //        feedback()

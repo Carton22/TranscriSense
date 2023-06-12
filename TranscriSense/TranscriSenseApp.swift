@@ -36,8 +36,6 @@ struct TranscriSenseApp: App {
     var body: some Scene {
         WindowGroup {
             activityListView().environmentObject(intro).environmentObject(actList)
-//            speech2textui()
-//            atmosBubble()
         }
     }
 }

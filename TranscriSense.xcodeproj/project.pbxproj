@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B41B17B42A29A520006EC304 /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41B17B32A29A520006EC304 /* ResultPage.swift */; };
 		B43B19002A2325C90082E2CA /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B18FF2A2325C90082E2CA /* Recorder.swift */; };
-		B4696F392A342A00009C94B6 /* speech2textui.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4696F382A342A00009C94B6 /* speech2textui.swift */; };
 		B4696F3D2A346A4E009C94B6 /* piechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4696F3C2A346A4E009C94B6 /* piechart.swift */; };
 		B4696F3F2A346A5C009C94B6 /* columnchart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4696F3E2A346A5C009C94B6 /* columnchart.swift */; };
 		B46C6B362A244D24008B5B83 /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C6B352A244D24008B5B83 /* ActivityList.swift */; };
@@ -46,7 +45,6 @@
 /* Begin PBXFileReference section */
 		B41B17B32A29A520006EC304 /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
 		B43B18FF2A2325C90082E2CA /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
-		B4696F382A342A00009C94B6 /* speech2textui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speech2textui.swift; sourceTree = "<group>"; };
 		B4696F3C2A346A4E009C94B6 /* piechart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = piechart.swift; sourceTree = "<group>"; };
 		B4696F3E2A346A5C009C94B6 /* columnchart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = columnchart.swift; sourceTree = "<group>"; };
 		B46C6B352A244D24008B5B83 /* ActivityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityList.swift; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 		D2FEB3392A1B53AC00B04236 /* TranscriSense */ = {
 			isa = PBXGroup;
 			children = (
-				B4696F382A342A00009C94B6 /* speech2textui.swift */,
 				D2FEB33A2A1B53AC00B04236 /* TranscriSenseApp.swift */,
 				D2FEB33C2A1B53AC00B04236 /* ContentView.swift */,
 				B46C6B352A244D24008B5B83 /* ActivityList.swift */,
@@ -298,7 +295,6 @@
 				D223C72C2A1B613300372785 /* atmosBubble.swift in Sources */,
 				D2FEB33B2A1B53AC00B04236 /* TranscriSenseApp.swift in Sources */,
 				B43B19002A2325C90082E2CA /* Recorder.swift in Sources */,
-				B4696F392A342A00009C94B6 /* speech2textui.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
